@@ -37,11 +37,27 @@ export default function About() {
 
       {/* Content */}
       <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <h1 className="text-4xl font-bold text-gray-900 mb-8">About Van Peenen Foods</h1>
+        <div className="flex flex-col md:flex-row items-center gap-8 mb-12">
+          <div className="flex-shrink-0">
+            <Image
+              src="/VP_Foods_cow_BACK.webp"
+              alt="Van Peenen Foods Cow"
+              width={200}
+              height={200}
+              className="w-48 h-auto"
+            />
+          </div>
+          <div className="flex-1">
+            <h1 className="text-4xl font-bold text-gray-900 mb-4">About Van Peenen Foods</h1>
+            <p className="text-xl text-gray-600">
+              [Add your company history and mission statement here]
+            </p>
+          </div>
+        </div>
 
         <div className="prose prose-lg max-w-none">
           <p className="text-xl text-gray-600 mb-6">
-            [Add your company history and mission statement here]
+            [Additional introduction or company overview can go here]
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Our Story</h2>
