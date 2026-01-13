@@ -82,6 +82,15 @@ export default function About() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12 mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-center mb-8">
+            <Image
+              src="/VP_Foods_11x11_GHOST.webp"
+              alt="Van Peenen Foods"
+              width={200}
+              height={200}
+              className="w-48 h-auto opacity-80"
+            />
+          </div>
           <div className="grid md:grid-cols-3 gap-8">
             <div>
               <h3 className="text-lg font-semibold mb-4">Van Peenen Foods</h3>

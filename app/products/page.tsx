@@ -47,11 +47,14 @@ export default function Products() {
 
           {/* Product Card Example 1 */}
           <div className="border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
-            <div className="aspect-square relative bg-gray-100">
-              {/* Replace with actual product image */}
-              <div className="absolute inset-0 flex items-center justify-center text-gray-400">
-                [Product Image]
-              </div>
+            <div className="aspect-square relative bg-white flex items-center justify-center p-8">
+              <Image
+                src="/VP_Foods_cow_BACK.webp"
+                alt="Product 1"
+                width={300}
+                height={300}
+                className="w-full h-auto"
+              />
             </div>
             <div className="p-6">
               <h3 className="text-xl font-semibold text-gray-900 mb-2">
@@ -70,10 +73,14 @@ export default function Products() {
 
           {/* Product Card Example 2 */}
           <div className="border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
-            <div className="aspect-square relative bg-gray-100">
-              <div className="absolute inset-0 flex items-center justify-center text-gray-400">
-                [Product Image]
-              </div>
+            <div className="aspect-square relative bg-white flex items-center justify-center p-8">
+              <Image
+                src="/VP_Foods_polo_chest_2color.webp"
+                alt="Product 2"
+                width={300}
+                height={300}
+                className="w-full h-auto"
+              />
             </div>
             <div className="p-6">
               <h3 className="text-xl font-semibold text-gray-900 mb-2">
@@ -92,10 +99,14 @@ export default function Products() {
 
           {/* Product Card Example 3 */}
           <div className="border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
-            <div className="aspect-square relative bg-gray-100">
-              <div className="absolute inset-0 flex items-center justify-center text-gray-400">
-                [Product Image]
-              </div>
+            <div className="aspect-square relative bg-white flex items-center justify-center p-8">
+              <Image
+                src="/VP_Foods_11x11_2color.webp"
+                alt="Product 3"
+                width={300}
+                height={300}
+                className="w-full h-auto"
+              />
             </div>
             <div className="p-6">
               <h3 className="text-xl font-semibold text-gray-900 mb-2">
@@ -134,6 +145,15 @@ export default function Products() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12 mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-center mb-8">
+            <Image
+              src="/VP_Foods_11x11_GHOST.webp"
+              alt="Van Peenen Foods"
+              width={200}
+              height={200}
+              className="w-48 h-auto opacity-80"
+            />
+          </div>
           <div className="grid md:grid-cols-3 gap-8">
             <div>
               <h3 className="text-lg font-semibold mb-4">Van Peenen Foods</h3>
