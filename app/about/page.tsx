@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#003d6e]">
       {/* Navigation */}
-      <nav className="border-b border-gray-200">
+      <nav className="border-b border-white/20 bg-[#003d6e]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <Link href="/" className="flex items-center">
@@ -18,16 +18,16 @@ export default function About() {
               />
             </Link>
             <div className="hidden md:flex space-x-8">
-              <Link href="/" className="text-gray-700 hover:text-blue-900 font-medium">
+              <Link href="/" className="text-white/90 hover:text-yellow-300 font-medium">
                 Home
               </Link>
-              <Link href="/about" className="text-gray-900 hover:text-blue-900 font-medium">
+              <Link href="/about" className="text-white hover:text-yellow-300 font-medium">
                 About
               </Link>
-              <Link href="/products" className="text-gray-700 hover:text-blue-900 font-medium">
+              <Link href="/products" className="text-white/90 hover:text-yellow-300 font-medium">
                 Products
               </Link>
-              <Link href="/contact" className="text-gray-700 hover:text-blue-900 font-medium">
+              <Link href="/contact" className="text-white/90 hover:text-yellow-300 font-medium">
                 Contact
               </Link>
             </div>
@@ -48,39 +48,39 @@ export default function About() {
             />
           </div>
           <div className="flex-1">
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">About Van Peenen Foods</h1>
-            <p className="text-xl text-gray-600">
+            <h1 className="text-4xl font-bold text-white mb-4">About Van Peenen Foods</h1>
+            <p className="text-xl text-white/90">
               [Add your company history and mission statement here]
             </p>
           </div>
         </div>
 
-        <div className="prose prose-lg max-w-none">
-          <p className="text-xl text-gray-600 mb-6">
+        <div className="prose prose-lg max-w-none prose-invert">
+          <p className="text-xl text-white/90 mb-6">
             [Additional introduction or company overview can go here]
           </p>
 
-          <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Our Story</h2>
-          <p className="text-gray-600 mb-6">
+          <h2 className="text-2xl font-bold text-white mt-12 mb-4">Our Story</h2>
+          <p className="text-white/80 mb-6">
             [Add information about how Van Peenen Foods was founded, years in business, etc.]
           </p>
 
-          <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">Our Values</h2>
-          <ul className="space-y-3 text-gray-600 mb-6">
-            <li><strong>Quality:</strong> [Add description]</li>
-            <li><strong>Service:</strong> [Add description]</li>
-            <li><strong>Integrity:</strong> [Add description]</li>
+          <h2 className="text-2xl font-bold text-white mt-12 mb-4">Our Values</h2>
+          <ul className="space-y-3 text-white/80 mb-6">
+            <li><strong className="text-white">Quality:</strong> [Add description]</li>
+            <li><strong className="text-white">Service:</strong> [Add description]</li>
+            <li><strong className="text-white">Integrity:</strong> [Add description]</li>
           </ul>
 
-          <h2 className="text-2xl font-bold text-gray-900 mt-12 mb-4">What We Do</h2>
-          <p className="text-gray-600 mb-6">
+          <h2 className="text-2xl font-bold text-white mt-12 mb-4">What We Do</h2>
+          <p className="text-white/80 mb-6">
             [Add description of your products, services, and what makes you unique]
           </p>
         </div>
       </main>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12 mt-20">
+      <footer className="bg-[#003d6e] text-white py-12 mt-20 border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-center mb-8">
             <Image
