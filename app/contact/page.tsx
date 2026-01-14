@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export default function Contact() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#003d6e]">
       {/* Navigation */}
-      <nav className="border-b border-gray-200">
+      <nav className="border-b border-white/20 bg-[#003d6e]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <Link href="/" className="flex items-center">
@@ -18,16 +18,16 @@ export default function Contact() {
               />
             </Link>
             <div className="hidden md:flex space-x-8">
-              <Link href="/" className="text-gray-700 hover:text-blue-900 font-medium">
+              <Link href="/" className="text-white/90 hover:text-yellow-300 font-medium">
                 Home
               </Link>
-              <Link href="/about" className="text-gray-700 hover:text-blue-900 font-medium">
+              <Link href="/about" className="text-white/90 hover:text-yellow-300 font-medium">
                 About
               </Link>
-              <Link href="/products" className="text-gray-700 hover:text-blue-900 font-medium">
+              <Link href="/products" className="text-white/90 hover:text-yellow-300 font-medium">
                 Products
               </Link>
-              <Link href="/contact" className="text-gray-900 hover:text-blue-900 font-medium">
+              <Link href="/contact" className="text-white hover:text-yellow-300 font-medium">
                 Contact
               </Link>
             </div>
@@ -41,41 +41,41 @@ export default function Contact() {
 
           {/* Contact Information */}
           <div>
-            <h1 className="text-4xl font-bold text-gray-900 mb-6">Get in Touch</h1>
-            <p className="text-lg text-gray-600 mb-8">
+            <h1 className="text-4xl font-bold text-white mb-6">Get in Touch</h1>
+            <p className="text-lg text-white/80 mb-8">
               [Add a welcoming message about contacting your business]
             </p>
 
             <div className="space-y-6">
               <div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">Address</h3>
-                <p className="text-gray-600">
+                <h3 className="text-lg font-semibold text-white mb-2">Address</h3>
+                <p className="text-white/80">
                   [Street Address]<br />
                   [City, State ZIP]
                 </p>
               </div>
 
               <div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">Phone</h3>
-                <p className="text-gray-600">
-                  <a href="tel:[phone-number]" className="hover:text-blue-900">
+                <h3 className="text-lg font-semibold text-white mb-2">Phone</h3>
+                <p className="text-white/80">
+                  <a href="tel:[phone-number]" className="hover:text-yellow-300">
                     [Add phone number]
                   </a>
                 </p>
               </div>
 
               <div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">Email</h3>
-                <p className="text-gray-600">
-                  <a href="mailto:[email]" className="hover:text-blue-900">
+                <h3 className="text-lg font-semibold text-white mb-2">Email</h3>
+                <p className="text-white/80">
+                  <a href="mailto:[email]" className="hover:text-yellow-300">
                     [Add email address]
                   </a>
                 </p>
               </div>
 
               <div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">Business Hours</h3>
-                <p className="text-gray-600">
+                <h3 className="text-lg font-semibold text-white mb-2">Business Hours</h3>
+                <p className="text-white/80">
                   Monday - Friday: [Add hours]<br />
                   Saturday: [Add hours]<br />
                   Sunday: [Add hours or "Closed"]
@@ -86,14 +86,14 @@ export default function Contact() {
 
           {/* Contact Form Placeholder */}
           <div className="bg-gray-50 p-8 rounded-lg">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Send us a Message</h2>
-            <p className="text-gray-600 mb-6">
+            <h2 className="text-2xl font-bold text-white mb-6">Send us a Message</h2>
+            <p className="text-white/80 mb-6">
               [Note: You can add a contact form here later, or direct people to email/call]
             </p>
 
             <div className="space-y-4">
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
+                <label className="block text-sm font-medium text-white/90 mb-2">
                   Name
                 </label>
                 <input
@@ -105,7 +105,7 @@ export default function Contact() {
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
+                <label className="block text-sm font-medium text-white/90 mb-2">
                   Email
                 </label>
                 <input
@@ -117,7 +117,7 @@ export default function Contact() {
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">
+                <label className="block text-sm font-medium text-white/90 mb-2">
                   Message
                 </label>
                 <textarea
@@ -138,7 +138,7 @@ export default function Contact() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12 mt-20">
+      <footer className="bg-[#003d6e] border-t border-white/10 text-white py-12 mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-center mb-8">
             <Image
