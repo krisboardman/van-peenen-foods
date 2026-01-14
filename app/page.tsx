@@ -10,7 +10,7 @@ export default function Home() {
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
               <Image
-                src="/VP_Foods_11x11_2color.webp"
+                src="/VP_Foods_11x11_GHOST.webp"
                 alt="Van Peenen Foods"
                 width={80}
                 height={80}
@@ -52,7 +52,7 @@ export default function Home() {
         <div className="text-center">
           <div className="flex justify-center mb-8">
             <Image
-              src="/VP_Foods_11x11_2color.webp"
+              src="/VP_Foods_11x11_GHOST.webp"
               alt="Van Peenen Foods Logo"
               width={300}
               height={300}

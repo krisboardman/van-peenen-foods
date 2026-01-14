@@ -10,7 +10,7 @@ export default function Products() {
           <div className="flex justify-between items-center h-20">
             <Link href="/" className="flex items-center">
               <Image
-                src="/VP_Foods_11x11_2color.webp"
+                src="/VP_Foods_11x11_GHOST.webp"
                 alt="Van Peenen Foods"
                 width={80}
                 height={80}
@@ -101,7 +101,7 @@ export default function Products() {
           <div className="border border-white/20 bg-[#003d6e] rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
             <div className="aspect-square relative bg-[#003d6e] flex items-center justify-center p-8">
               <Image
-                src="/VP_Foods_11x11_2color.webp"
+                src="/VP_Foods_11x11_GHOST.webp"
                 alt="Product 3"
                 width={300}
                 height={300}

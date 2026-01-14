@@ -10,7 +10,7 @@ export default function Contact() {
           <div className="flex justify-between items-center h-20">
             <Link href="/" className="flex items-center">
               <Image
-                src="/VP_Foods_11x11_2color.webp"
+                src="/VP_Foods_11x11_GHOST.webp"
                 alt="Van Peenen Foods"
                 width={80}
                 height={80}
