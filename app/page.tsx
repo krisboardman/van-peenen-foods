@@ -35,18 +35,18 @@ export default function Home() {
         </div>
       </nav>
 
-      {/* Hero Section with Background Image Placeholder */}
+      {/* Hero Section with Background Image */}
       <section className="relative min-h-[600px] flex items-center justify-center bg-[#003d6e]">
-        {/* Background Image - Add your farm kitchen photo here */}
-        {/* <div className="absolute inset-0 opacity-20">
+        {/* Background Image */}
+        <div className="absolute inset-0 opacity-30">
           <Image
-            src="/farm-kitchen-bg.jpg"
-            alt="Farm Kitchen Background"
+            src="/farm-kitchen-bg.webp"
+            alt="Farm Kitchen Background with Eggs, Milk, and Cheese"
             fill
             className="object-cover"
             priority
           />
-        </div> */}
+        </div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center">
